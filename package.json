@@ -1,0 +1,23 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "node js begins",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vignesh-PS/node-starter.git"
+  },
+  "author": "vignesh-ps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vignesh-PS/node-starter/issues"
+  },
+  "homepage": "https://github.com/Vignesh-PS/node-starter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
