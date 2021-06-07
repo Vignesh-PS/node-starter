@@ -3,8 +3,6 @@ const ErrorHandler = require('../utils/errorReponse');
 const errorHandler = (err, req, res, next)=>{
         console.log(err.stack);
         let error = {...err};
-
-        console.log('error :>> ', error);
         
         //Mongoose Invalid Id
         if(err.name=='CastError'){
